@@ -1,15 +1,15 @@
 cask "shotmesh" do
-  version "0.1.1"
+  version "0.1.2"
 
   # arm64 và x64 build riêng (không universal) nên sha256/url tách theo chip.
   on_arm do
-    sha256 "9b406369f8ba30e50d01ce4d96b890db56128c74fd8aa0dfd462889b15102684"
+    sha256 "3250336c09f06075069c2813d0fb20791a56924f96c261a0649fae99ca7a00b6"
 
     url "https://github.com/khiemk31/shotmesh-releases/releases/download/v#{version}/Shotmesh-#{version}-arm64.dmg",
         verified: "github.com/khiemk31/shotmesh-releases/"
   end
   on_intel do
-    sha256 "bc048e85750f873279ba24a3418a100efde41326f9d45178adca178761a6c0a3"
+    sha256 "38bff652181307e23128fc50aa96c43921356238c077dfcf75e9354be6da6c4a"
 
     url "https://github.com/khiemk31/shotmesh-releases/releases/download/v#{version}/Shotmesh-#{version}.dmg",
         verified: "github.com/khiemk31/shotmesh-releases/"
